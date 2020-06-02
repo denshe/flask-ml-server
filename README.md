@@ -55,3 +55,5 @@ b"{'predictions': [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, ..., 0]}"
 b"{'predictions': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, ..., 0]}"
 ```
 
+Notes:
+The built model is not doing well on prediction of negative cases (i.e. 1's), see confusion matrix. Hence, assuming dataset stays the same, more work can be done on adding new features; training model on balanced training dataset (with similar number of 0's and 1's); etc.
